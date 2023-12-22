@@ -1,0 +1,80 @@
+#welcomeHeader {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  height: 50px;
+  padding-top: 20px;
+}
+
+#nav {
+	background-color: black;
+  text-align: center;
+}
+
+#loginBtn {
+  cursor: pointer;
+  font-weight: 600;
+  width: 200px;
+  padding: 10px 0;
+  transition: 0.4s;
+  color: blue;
+}
+
+.song-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+  margin: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+  border-top: 3px solid #292929;
+}
+.song-img{
+  width:100%;
+  height: 100%;
+  position: relative;
+}
+.song-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.song-box a{
+  text-align:center;
+  display: block;
+  font-weight: 600;
+  display: -webkit-box;
+  max-width: 80%;
+  -webkit-line-clamp: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #3a3a3a;
+  margin: 20px;
+}
+.song-box:hover{
+  transform: translateY(-10px);
+  transition: all ease 0.2s;
+}
+#song-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.quality{
+  text-align: center;
+  font-size:small
+}
+
+a {
+  text-decoration: none;
+}
+
+.ball {
+  position: absolute;
+  border-radius: 100%;
+  opacity: 0.7;
+}

@@ -1,0 +1,16 @@
+{{#each artist}}
+        <div class="song-box">
+                <a href="{{this.url}}">
+                        <div class="song-img">
+                                <br>
+                                <div class="quality"><b>{{this.full_title}}</b>
+                                        <br>
+                                        <img src="{{this.header_image_thumbnail_url}}">
+                                </div>
+                                <div class="quality"><b>{{this.release_date_for_display}}</b></div>
+                        </div>
+                </a>
+        </div>
+{{/each}}
+
+
